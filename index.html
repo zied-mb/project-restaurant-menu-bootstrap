@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Venice</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!------- Header Section ------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#Restaurant_Venice">Restaurant Venice</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- Use ms-auto here -->
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#About_Us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!------------ Hero Section ------------>
+
+    <div id="Home" class="hero-section d-flex align-items-center justify-content-center text-center myDiv"
+        style="background-image: url('venice_logo.png'); background-size: cover; background-position: center;">
+
+        <div class="">
+            <h1 class="display-4 myH1">Taste The Best Dishes</h1>
+            <p class="lead">Experience the finest flavors from our kitchen</p>
+            <a href="#Menu" class="btn btn-lg text-light" style="background-color: #B1A38F;">View Menu</a>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--------------- Menu Section -------------->
+
+    <div id="Menu" class="container text-center section mb-5 border border-dark card ">
+
+        <h1 class="text-center custom-margin " style="color: #B1A38F; font-weight: bold; text-transform: uppercase;">
+            Appetizers</h1>
+        <div class="row mt-4">
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Caprese Salad.png" alt="Caprese Salad Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Caprese Salad</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$10.00</span>
+                        <p class="card-text mt-2">Romaine lettuce, crunchy croutons, and shaved Parmesan cheese, tossed
+                            in a creamy Caesar dressing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="caesar_salad.png" alt="Caesar Salad Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Caesar Salad</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$13.00</span>
+                        <p class="card-text mt-2">Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Watermelon Feta Salad.png" alt="Watermelon Feta Salad Image"
+                        class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Watermelon Feta Salad</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$12.00</span>
+                        <p class="card-text mt-2">Juicy watermelon cubes mixed with crumbled feta cheese, fresh mint,
+                            and a splash of lime juice.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <h1 class="text-center custom-margin " style="color: #b1a38f ; font-weight: bold; text-transform: uppercase;">
+            Main Courses</h1>
+
+
+        <div class="row mt-4">
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Grilled Salmon.png" alt="Grilled Salmon Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Grilled Salmon</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$35.00</span>
+                        <p class="card-text mt-2">Salmon fillet seasoned and grilled to perfection, served with lemon
+                            butter sauce.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Roasted Chicken.png" alt="Roasted Chicken Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Roasted Chicken</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$15.00</span>
+                        <p class="card-text mt-2">Herb-marinated chicken roasted until golden brown, served with garlic
+                            mashed potatoes and a savory gravy.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="PASTA.jpg" alt="Seared Scallops Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Seared Scallops</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$20.00</span>
+                        <p class="card-text mt-2">Shrimp sautéed in garlic and butter, simmered in tomato sauce or
+                            Alfredo sauce.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 class="text-center custom-margin " style="color: #b1a38f; font-weight: bold; text-transform: uppercase;">
+            Desserts</h1>
+
+
+        <div class="row mt-4">
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Chocolate Fondue.jpg" alt="Chocolate Fondue Image"
+                        class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Chocolate Fondue</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$25.00</span>
+                        <p class="card-text mt-2">Assorted fruits and marshmallows served with rich chocolate fondue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Cheesecake.png" alt="Cheesecake Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Cheesecake</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$10.00</span>
+                        <p class="card-text mt-2">Rich and creamy cheesecake on a graham cracker crust, drizzled with a
+                            luscious strawberry sauce.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-3">
+                <div class="card border border-dark h-100">
+                    <img src="Apple Crisp.png" alt="Apple Crisp Image" class="card-img-top img-fluid fixed-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Apple Crisp</h3>
+                        <span class="badge btn btn-lg text-light" style="background-color: #B1A38F; ms-2">$15.00</span>
+                        <p class="card-text mt-2">Warm baked apples topped with a crunchy oat and cinnamon crumble,
+                            served with vanilla ice cream.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About Us Section -->
+
+    <div id="About_Us" class="container my-5 card border border-dark h-100">
+        <div class="row align-items-center card-body about-us-div">
+
+            <div id="Restaurant_Venice" class="col-md-6">
+                <img src="restaurant .png" alt="About Our Restaurant" class="img-fluid rounded h-50">
+            </div>
+
+
+            <div class="col-md-6 d-flex flex-column about-us-div-inner">
+                <h2>About Us</h2>
+                <p class="mt-3 ">
+                   Welcome to our restaurant, where passion meets culinary excellence.<br> At <strong>Restaurant Venice</strong>,
+                    we pride ourselves on serving dishes that not only tantalize your taste buds but also celebrate the
+                    rich traditions of our cuisine. Our chefs carefully select fresh, local ingredients to create an
+                    unforgettable dining experience. Whether you're here for a quick bite or a special occasion,
+                    we strive to make every meal extraordinary. Join us and experience the magic of great food,
+                    warm hospitality, and a welcoming atmosphere.
+                </p>
+                <a href="#Menu" class="btn btn-lg text-light" style="background-color: #B1A38F; mt-4">View Our Menu</a>
+                <img src="background_about2.png" alt="Your Description" class="img-fluid rounded position-absolute top-0 end-0 w-50">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Contact Section -->
+
+
+    <div id="Contact" class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-center mb-4">Contact Us For Reservations</h2>
+                <form>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type your message"
+                            required></textarea>
+                    </div>
+
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-lg text-light"
+                            style="background-color: #B1A38F;">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!------- Footer ------->
+
+
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p class="mb-0"> © 2024 Zied_MB . All Rights Reserved.</p>
+            <div class="social-icons mt-2">
+                <a href="https://www.instagram.com/zied.mb/" class="text-light me-3" title="Instagram"
+                    target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/zied-mb" class="text-light me-3" title="GitHub" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zied-meddeb-7087a2266/" class="text-light" title="LinkedIn"
+                    target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+
+</body>
+
+</html>
